@@ -9,7 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 public class ControllerApplication {
 
     @GetMapping
-    public String sayHello(){
+    public String sayHello() {
         return "Hello Akshay";
     }
+
+    @GetMapping("/a1")
+    public String me() {
+        return "AKSHAY PARDESHI..!";
+    }
+
+
 }
